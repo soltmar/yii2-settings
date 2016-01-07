@@ -1,0 +1,25 @@
+{
+    "name": "marsoltys/cmssettings",
+
+    "type": "library",
+
+    "description": "Rewritten version of Yii 1 Cms Settings - http://www.yiiframework.com/extension/settings/",
+    "keywords": ["settings", "Yii2", "CMS"],
+
+    "authors": [
+        {
+            "name": "Mariusz Soltys",
+            "homepage": "https://github.com/marsoltys"
+        },
+        {
+            "name": "twisted1919",
+            "homepage": "http://www.yiiframework.com/forum/index.php/user/7442-twisted1919/",
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "marsoltys\\cmssettings\\": ""
+        }
+    }
+}
