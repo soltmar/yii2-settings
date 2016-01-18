@@ -36,23 +36,23 @@ Add the component to the web.php config file components section:
 * Set a database item:  
 * $itemName can be an associative array() in key=>value pairs  ($itemValue="" in this case) 
 */
-Yii::app()->settings->set($categoryName, $itemName, $itemValue, $toDatabase=true);  
+Yii::$app->settings->set($categoryName, $itemName, $itemValue, $toDatabase=true);  
  
 // Get a database item:  
-Yii::app()->settings->get($categoryName, $itemName);  
+Yii::$app->settings->get($categoryName, $itemName);  
  
 // Get all items from a category:  
-Yii::app()->settings->get($categoryName);
+Yii::$app->settings->get($categoryName);
  
 // Delete a database item:  
-Yii::app()->settings->delete($categoryName, $itemName);  
+Yii::$app->settings->delete($categoryName, $itemName);  
  
 // Delete all items from a category:  
-Yii::app()->settings->delete($categoryName);  
+Yii::$app->settings->delete($categoryName);  
  
 //Import items from a file:  
 $items=include('path/to/file.php');//returns an array() in key=>value pairs  
-Yii::app()->settings->set($categoryName, $items);
+Yii::$app->settings->set($categoryName, $items);
 ```
 
 The component uses something like "lazy loading" for loading items within a category,
