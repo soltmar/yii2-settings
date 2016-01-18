@@ -1,10 +1,14 @@
 {
-    "name": "marsoltys/cmssettings",
+    "name": "marsoltys/yii2-settings",
 
-    "type": "library",
+    "type": "yii2-extension",
 
-    "description": "Rewritten version of Yii 1 Cms Settings - http://www.yiiframework.com/extension/settings/",
+    "description": "Cms Settings - http://www.yiiframework.com/extension/settings/ reqeritten for Yii 2",
     "keywords": ["settings", "Yii2", "CMS"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/marsoltys/yii2-settings"
+    },
 
     "authors": [
         {
@@ -17,9 +21,13 @@
         }
     ],
 
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+
     "autoload": {
         "psr-4": {
-            "marsoltys\\cmssettings\\": ""
+            "marsoltys\\yii2-settings\\": ""
         }
     }
 }
