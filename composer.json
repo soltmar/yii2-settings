@@ -27,7 +27,7 @@
 
     "autoload": {
         "psr-4": {
-            "marsoltys\\yii2-settings\\": ""
+            "marsoltys\\yii2settings\\": ""
         }
     }
 }

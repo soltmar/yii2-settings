@@ -8,7 +8,7 @@
  * @description CmsSettings rewritten for Yii 2 version by Mariusz Soltys (https://github.com/marsoltys/)
  */
 
-namespace marsoltys\CmsSettings;
+namespace marsoltys\yii2settings;
 
 use Yii;
 use yii\base\Application;
