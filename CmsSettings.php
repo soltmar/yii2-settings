@@ -256,7 +256,7 @@ class CmsSettings extends \yii\base\Component
             $result=$command->queryAll();
 
             if (empty($result)) {
-                return;
+                return null;
             }
 
             $items= [];
