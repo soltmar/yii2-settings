@@ -8,14 +8,15 @@
  * @description CmsSettings rewritten for Yii 2 version by Mariusz Soltys (https://github.com/marsoltys/)
  */
 
-namespace marsoltys\CmsSettings;
+namespace marsoltys\yii2settings;
 
 use Yii;
 use yii\base\Application;
+use yii\base\Component;
 use yii\base\UserException;
 use yii\helpers\ArrayHelper;
 
-class CmsSettings extends \yii\base\Component
+class CmsSettings extends Component
 {
 
     protected $saveItemsToDatabase = [];
