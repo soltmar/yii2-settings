@@ -1,8 +1,6 @@
 {
     "name": "marsoltys/yii2-settings",
-
     "type": "yii2-extension",
-
     "description": "Cms Settings - http://www.yiiframework.com/extension/settings/ rewritten for Yii 2",
     "keywords": ["settings", "Yii2", "CMS"],
     "license": "BSD-3-Clause",

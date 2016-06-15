@@ -11,6 +11,7 @@
 namespace marsoltys\yii2settings;
 
 use Yii;
+
 use yii\base\Application;
 use yii\base\Component;
 use yii\base\UserException;
